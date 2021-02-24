@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"outDir": "built",
+		"downlevelIteration": true,
+		"lib": ["es6"],
+		"target": "es6",
+		"moduleResolution": "node"
+	},
+	"typedocOptions": {
+		"entryPoints": "src",
+		"out": "docs",
+		"name": "Feather"
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}
+
